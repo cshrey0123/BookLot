@@ -59,7 +59,7 @@ function App() {
   //Get search cards
   useEffect(() => {
     Axios.get(
-      `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&maxResults=${maxResults}&key=AIzaSyDDwLWhfPGhaLnooQRSNrMSI5qVh3QUEzU`
+      `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&maxResults=${maxResults}&key=AIzaSyBM7--UHmPxp_k3APPrljU1XB1EtyExUqc`
     )
       .then((res) => {
         setSearchList(res.data.items);
