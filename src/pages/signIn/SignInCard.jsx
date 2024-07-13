@@ -7,7 +7,7 @@ import { auth, provider } from "../../firebase/firebase-config";
 import { signInWithPopup } from "firebase/auth";
 
 function SignUpCard() {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
 
   const { setIsAuth } = useContext(AppContext);
 
@@ -27,7 +27,7 @@ function SignUpCard() {
     <StyledCard>
       <div className="card-col col">
         <h3>Welcome, BookWorm!</h3>
-        <button onClick={signInWithGoogle}>
+        <button type="submit" onClick={signInWithGoogle}>
           <FcGoogle style={{ fontSize: "1.2rem" }} />
           Continue with Google
         </button>
