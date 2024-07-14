@@ -34,7 +34,7 @@ function App() {
 
   useEffect(() => {
     Axios.get(
-      `https://api.nytimes.com/svc/books/v3/lists/full-overview.json?api-key=AIzaSyAZET1gjan9mKYO8NzgPdQt56MPF_UqEFc`
+      `https://api.nytimes.com/svc/books/v3/lists/full-overview.json?api-key=72DHCvJkKDiElIoyUuZZqwkZLIdxvz0S`
     )
       .then((res) => {
         setFictionBooksArray(res.data.results.lists[2].books);
