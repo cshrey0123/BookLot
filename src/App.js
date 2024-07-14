@@ -47,7 +47,7 @@ function App() {
   useEffect(() => {
     Axios.get(
       `https://www.googleapis.com/books/v1/volumes?q=business+subject:${subject}
-      &maxResults=35&key=AIzaSyDDwLWhfPGhaLnooQRSNrMSI5qVh3QUEzU`
+      &maxResults=35&key=AIzaSyAZET1gjan9mKYO8NzgPdQt56MPF_UqEFc`
     )
       .then((res) => {
         setCategoriesArray(res.data.items);
