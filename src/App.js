@@ -34,7 +34,7 @@ function App() {
 
   useEffect(() => {
     Axios.get(
-      `https://api.nytimes.com/svc/books/v3/lists/full-overview.json?api-key=HlIlRG6w4zrCyRRzPVrreAQPyH3hxMHq`
+      `https://api.nytimes.com/svc/books/v3/lists/full-overview.json?api-key=AIzaSyAZET1gjan9mKYO8NzgPdQt56MPF_UqEFc`
     )
       .then((res) => {
         setFictionBooksArray(res.data.results.lists[2].books);
@@ -59,7 +59,7 @@ function App() {
   //Get search cards
   useEffect(() => {
     Axios.get(
-      `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&maxResults=${maxResults}&key=AIzaSyBM7--UHmPxp_k3APPrljU1XB1EtyExUqc`
+      `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&maxResults=${maxResults}&key=AIzaSyAZET1gjan9mKYO8NzgPdQt56MPF_UqEFc`
     )
       .then((res) => {
         setSearchList(res.data.items);
