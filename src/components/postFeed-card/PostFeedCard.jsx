@@ -33,7 +33,7 @@ function PostFeedCard() {
   };
 
   return (
-    <StyledPostFeedCard className="col" onSubmit={(e) => handleSubmit(e)}>
+    <StyledPostFeedCard className="col" onSubmit={(e) => handleSubmit(e)} id="post">
       <input
         type="text"
         placeholder="Book Title.."
