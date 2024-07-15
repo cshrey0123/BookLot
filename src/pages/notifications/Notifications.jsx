@@ -17,7 +17,7 @@ function Notifications() {
   }, []);
   
   return (
-    <StyledNotifications>
+    <StyledNotifications id="notification">
       <Leftbar />
       <MyNotifications />
       <RightBar />
