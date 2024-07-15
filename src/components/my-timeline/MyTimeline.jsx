@@ -5,7 +5,7 @@ import { StyledMyTimeline } from "./MyTimeline.styled";
 
 function MyTimeline() {
   return (
-    <StyledMyTimeline>
+    <StyledMyTimeline id="timeline">
       <StyledBar>
         <h1>My Timeline</h1>
       </StyledBar>

@@ -17,7 +17,7 @@ function NotificationInfo() {
   }, []);
 
   return (
-    <StyledNotificationInfo>
+    <StyledNotificationInfo id="notification">
       <div className="notification-card row">
         <div className="logo-circle">
           <img src="./assets/logo-2.svg" alt="" className="logo" />

@@ -15,7 +15,7 @@ function MyBookmarks() {
   };
   
   return (
-    <StyledMyBookmarks>
+    <StyledMyBookmarks id="bookmarks">
       <StyledBar>
         <h1>My Bookmarks</h1>
         <button

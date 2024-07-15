@@ -28,7 +28,7 @@ function TimelineInfo() {
   };
 
   return (
-    <StyledMyTimelineInfo className="row">
+    <StyledMyTimelineInfo className="row" id="timeline">
       {clicked && (
         <div className="pf-abs">
           <PostFeedCard />
